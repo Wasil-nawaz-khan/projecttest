@@ -1,0 +1,46 @@
+nav{
+  padding: 20px;
+  background-color: yellowgreen;
+}
+
+nav span{
+  padding: 20px;
+  font-weight: 900;
+  text-decoration: underline 3px solid purple;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav button, .about button{
+  margin: 2px;
+  background-color: white;
+  border: 2px solid purple;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#hero{
+  background-image: url('https://placehold.co/1200x500');
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+
+.about, .services{
+  max-width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.about h1, .services h1{
+  text-align: center;
+  text-decoration: underline 5px solid red;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
